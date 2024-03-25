@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Bank-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Bank-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Empolyee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Empolyee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +43,58 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-17T18:18:02.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Person.h",
+              "RelativeDocumentMoniker": "Bank-System\\Person.h",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Person.h",
+              "RelativeToolTip": "Bank-System\\Person.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-25T19:28:13.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h",
+              "RelativeDocumentMoniker": "Bank-System\\Client.h",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h",
+              "RelativeToolTip": "Bank-System\\Client.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-25T19:24:04.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empolyee.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Empolyee.h",
+              "RelativeDocumentMoniker": "Bank-System\\Empolyee.h",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Empolyee.h",
+              "RelativeToolTip": "Bank-System\\Empolyee.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-25T19:59:59.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Admin.h",
+              "RelativeDocumentMoniker": "Bank-System\\Admin.h",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Admin.h",
+              "RelativeToolTip": "Bank-System\\Admin.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-25T20:02:49.386Z",
               "EditorCaption": ""
             }
           ]
