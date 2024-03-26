@@ -12,7 +12,7 @@ private:
 	double balance;
 public:
 	//Constructors:
-	Client() {
+	const Client() {
 		double balance = 0;
 	}
 	Client(int id, string name, string password, double balance) : Person(id, name, password) {
@@ -33,31 +33,27 @@ public:
 	void checkBalance() {
 		cout << "Current Balance : " << balance;
 	}
-
 	void deposit(int amount) {
 		balance += amount;
-		cout << "balance  " << balance;
+		cout << "Balance : " << balance << endl;
 	}
-
 	void withdraw(int amount) {
 		if (amount <= balance) {
 			balance -= amount;
 		}
 		else {
-			cout << "amount exceeded";
+			cout << "amount Exceeded";
 		}
-		cout << "balance  " << balance;
+		cout << "Balance : " << balance << endl;
 	}
-
 	void transferTo(Client& a, int amount) {
 		if (amount <= balance) {
 			a.deposit(amount);
 			balance -= amount;
 		}
 		else {
-			cout << "Amount exceeded";
+			cout << "Amount Exceeded";
 		}
-		cout << "balance  " << balance;
+		cout << "Balance : " << balance << endl;
 	}
-
 };

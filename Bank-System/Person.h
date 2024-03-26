@@ -12,7 +12,7 @@ protected:
 	string name,password;
 public:
 	//Constructor:
-	Person() {
+	const Person() {
 		int id = 0;
 	}
 	Person(int id,string name,string password){
