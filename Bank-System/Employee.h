@@ -12,7 +12,7 @@ protected:
 	double salary;
 public:
 	//Constructors:
-	const Employee() {
+	Employee() {
 		double salary = 0;
 	}
 	Employee(int id, string name, string password, double salary) : Person(id, name, password) {
