@@ -31,7 +31,14 @@ public:
 	}
 	//Methods:
 	void checkBalance() {
-		cout << "Current Balance : " << balance;
+		if (balance < 1500) {
+			cout << "Min Balance 1500 " << endl;
+		}
+		else if (balance > 1500) {
+        cout << "Current Balance : " << getBalance();
+		}
+		
+		
 	}
 	void deposit(int amount) {
 		balance += amount;
