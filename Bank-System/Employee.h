@@ -22,7 +22,7 @@ public:
 		setSalary(salary);
 	}
 	//Setters:
-	void setSalary(double salaey) {
+	void setSalary(double salary) {
 		this->salary = salary;
 	}
 	//Getters:

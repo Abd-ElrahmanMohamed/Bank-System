@@ -30,5 +30,7 @@ public:
 		return this->balance;
 	}
 	//Methods:
-
+	void checkBalance() {
+		cout << "Current Balance : " << balance;
+	}
 };
