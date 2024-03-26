@@ -3,16 +3,16 @@
 #include <string>
 #include <vector>
 #include <cmath>
-#include"Empolyee.h"
+#include"Employee.h"
 using namespace std;
-class Admin : public Empolyee
+class Admin : public Employee
 {
 public:
 	//Constructor:
 	Admin() {
 		double salary = 0;
 	}
-	Admin(int id, string name, string password, double salary) :Empolyee(id, name, password, salary) {
+	Admin(int id, string name, string password, double salary) :Employee(id, name, password, salary) {
 		setID(id);
 		setName(name);
 		setPassword(password);
