@@ -42,8 +42,7 @@
               "RelativeToolTip": "Bank-System\\Bank-System.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-17T18:18:02.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T18:18:02.372Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Bank-System\\Person.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-25T19:28:13.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T19:28:13.831Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Bank-System\\Client.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-25T19:24:04.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T19:24:04.087Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "Bank-System\\Employee.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-25T19:59:59.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T19:59:59.86Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "Bank-System\\Admin.h",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Admin.h",
               "RelativeToolTip": "Bank-System\\Admin.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-25T20:02:49.386Z",
               "EditorCaption": ""
