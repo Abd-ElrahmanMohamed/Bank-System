@@ -33,4 +33,31 @@ public:
 	void checkBalance() {
 		cout << "Current Balance : " << balance;
 	}
+
+	void deposit(int amount) {
+		balance += amount;
+		cout << "balance  " << balance;
+	}
+
+	void withdraw(int amount) {
+		if (amount <= balance) {
+			balance -= amount;
+		}
+		else {
+			cout << "amount exceeded";
+		}
+		cout << "balance  " << balance;
+	}
+
+	void transferTo(Client& a, int amount) {
+		if (amount <= balance) {
+			a.deposit(amount);
+			balance -= amount;
+		}
+		else {
+			cout << "Amount exceeded";
+		}
+		cout << "balance  " << balance;
+	}
+
 };
