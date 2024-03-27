@@ -1,8 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <vector>
-#include <cmath>
+#include "Validation.h"
 using namespace std;
 class Person
 {
@@ -12,32 +11,40 @@ protected:
 	string name,password;
 public:
 	//Constructor:
-	 Person() {
-		int id = 0;
-	}
 	Person(int id,string name,string password){
-			setID(id);
-			setName(name);
-			setPassword(password);
+		this->id = id;
+		this->name = name;
+		this->password = password;
 	}
 	//Setters:
 	void setID(int id) {
 		this->id = id;
 	}
 	void setName(string name) {
-		this->name = name;
+		if (Validation::ValidateName(name))
+			this->name = name;
+		else
+			cout << "Invalid name format. Name must contain only alphabetic characters and be between 5 and 20 characters long." << endl;
 	}
 	void setPassword(string password) {
-		this->password = password;
+		if (Validation::ValidatePassword(password))
+			this->password = password;
+		else
+			cout << "Invalid password format. Password must be between 8 and 20 characters long." << endl;
 	}
 	//Getters:
 	int getID() {
-		return this->id;
+		return id;
 	}
 	string getName() {
-		return this->name ;
+		return name ;
 	}
 	string getPassword() {
-		return this->password ;
+		return password;
+	}
+	//Methods:
+	virtual void display() {
+		cout << "ID : " << id << endl;
+		cout << "Name : " << name << endl;
 	}
 };

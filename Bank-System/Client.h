@@ -1,9 +1,8 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <vector>
-#include <cmath>
 #include "Person.h"
+#include "Validation.h"
 using namespace std;
 class Client : public Person
 {
@@ -12,55 +11,50 @@ private:
 	double balance;
 public:
 	//Constructors:
-	Client() {
-		double balance = 0;
-	}
 	Client(int id, string name, string password, double balance) : Person(id, name, password) {
-		setID(id);
-		setName(name);
-		setPassword(password);
-		setBalance(balance);
+		this->id = id;
+		this->name = name;
+		this->password = password;
+		this->balance = balance;
 	}
 	//Setters:
 	void setBalance(double balance) {
-		this->balance = balance;
+		if (balance >= 1500)
+			this->balance = balance;
+		else
+			cout << "Minimum balance requirement not met. Balance must be at least 1500." << endl;
 	}
 	//Getters:
 	double getBalance() {
-		return this->balance;
+		return balance;
 	}
 	//Methods:
 	void checkBalance() {
-		if (balance < 1500) {
-			cout << "Min Balance 1500 " << endl;
-		}
-		else if (balance > 1500) {
-        cout << "Current Balance : " << getBalance();
-		}
-		
-		
+		cout << "Current Balance : " << balance << endl;
 	}
 	void deposit(int amount) {
 		balance += amount;
-		cout << "Balance : " << balance << endl;
 	}
 	void withdraw(int amount) {
-		if (amount <= balance) {
+		if (balance - amount >= 1500) {
 			balance -= amount;
 		}
-		else {
-			cout << "amount Exceeded";
-		}
-		cout << "Balance : " << balance << endl;
+		else
+			cout << "Insufficient balance. Minimum balance requirement not met." << endl;
 	}
-	void transferTo(Client& c, int amount) {
-		if (amount <= balance) {
+	void transferTo(int amount, Client& c) {
+		if (balance - amount >= 1500) {
+			balance -= amount;
 			c.deposit(amount);
-			balance -= amount;
+			cout << "Transfer successful." << endl;
 		}
 		else {
-			cout << "Amount Exceeded";
+			cout << "Insufficient balance. Minimum balance requirement not met." << endl;
 		}
-		cout << "Balance : " << balance << endl;
 	}
+	//Methods:
+	void display(){
+		Person::display();
+		cout << "Balance : " << balance << endl;
+		}
 };

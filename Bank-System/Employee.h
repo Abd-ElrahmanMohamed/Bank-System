@@ -1,8 +1,6 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <vector>
-#include <cmath>
 #include "Person.h"
 using namespace std;
 class Employee : public Person
@@ -12,23 +10,26 @@ protected:
 	double salary;
 public:
 	//Constructors:
-	Employee() {
-		double salary = 0;
-	}
 	Employee(int id, string name, string password, double salary) : Person(id, name, password) {
-		setID(id);
-		setName(name);
-		setPassword(password);
-		setSalary(salary);
+		this->id = id;
+		this->name = name;
+		this->password = password;
+		this->salary = salary;
 	}
 	//Setters:
 	void setSalary(double salary) {
-		this->salary = salary;
+		if (salary >= 5000)
+			this->salary = salary;
+		else
+			cout << "Minimum salary requirement not met. Salary must be at least 5000." << endl;
 	}
 	//Getters:
 	double getSalary() {
-		return this->salary;
+		return salary;
 	}
 	//Methods:
-
+	void display() {
+		Person::display();
+		cout << "Salary : " << salary << endl;
+	}
 };
