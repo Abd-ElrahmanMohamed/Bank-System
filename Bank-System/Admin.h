@@ -8,10 +8,10 @@ class Admin : public Employee
 public:
 	//Constructor:
 	Admin(int id, string name, string password, double salary) :Employee(id, name, password, salary) {
-		this->id = id;
-		this->name = name;
-		this->password = password;
-		this->salary = salary;
+		setID(id);
+		setName(name);
+		setPassword(password);
+		setSalary(salary);
 	}
 	//Methods:
 	void display() {

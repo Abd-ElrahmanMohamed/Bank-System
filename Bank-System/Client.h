@@ -12,10 +12,10 @@ private:
 public:
 	//Constructors:
 	Client(int id, string name, string password, double balance) : Person(id, name, password) {
-		this->id = id;
-		this->name = name;
-		this->password = password;
-		this->balance = balance;
+		setID(id);
+		setName(name);
+		setPassword(password);
+		setBalance(balance);
 	}
 	//Setters:
 	void setBalance(double balance) {

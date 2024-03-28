@@ -4,11 +4,11 @@
 using namespace std;
 class Validation {
 public:
-    static bool isValidName(const string& name) {
+    static bool ValidName(const string& name) {
         return name.size() >= 5 && name.size() <= 20 && isAlpha(name);
     }
 
-    static bool isValidPassword(const string& password) {
+    static bool ValidPassword(const string& password) {
         return password.size() >= 8 && password.size() <= 20;
     }
 

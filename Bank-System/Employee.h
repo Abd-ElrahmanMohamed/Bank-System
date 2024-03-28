@@ -11,10 +11,10 @@ protected:
 public:
 	//Constructors:
 	Employee(int id, string name, string password, double salary) : Person(id, name, password) {
-		this->id = id;
-		this->name = name;
-		this->password = password;
-		this->salary = salary;
+		setID(id);
+		setName(name);
+		setPassword(password);
+		setSalary(salary);
 	}
 	//Setters:
 	void setSalary(double salary) {
