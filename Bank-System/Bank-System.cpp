@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    Client client(1, "abd", "password", 2000);
+    Client client(1, "Mohamed", "password", 2000);
     client.display();
     client.deposit(500);
     client.checkBalance();
