@@ -1,5 +1,10 @@
-﻿  Bank-System.cpp
+﻿  Admin.cpp
+  Bank-System.cpp
 C:\Users\Administrator\source\repos\Bank-System\Bank-System\Bank-System.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Administrator\source\repos\Bank-System\Bank-System\Bank-System.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Administrator\source\repos\Bank-System\Bank-System\Bank-System.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Client.cpp
+  Employee.cpp
+  Person.cpp
+  Generating Code...
   Bank-System.vcxproj -> C:\Users\Administrator\source\repos\Bank-System\x64\Debug\Bank-System.exe

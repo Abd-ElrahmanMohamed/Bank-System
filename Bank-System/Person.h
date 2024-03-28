@@ -13,7 +13,6 @@ public:
 	//Constructor:
 	Person(int id,string name,string password){
 		setID(id);
-		setName(name);
 		setPassword(password);
 	}
 	//Setters:
