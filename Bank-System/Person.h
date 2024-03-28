@@ -12,22 +12,22 @@ protected:
 public:
 	//Constructor:
 	Person(int id,string name,string password){
-		this->id = id;
-		this->name = name;
-		this->password = password;
+		setID(id);
+		setName(name);
+		setPassword(password);
 	}
 	//Setters:
 	void setID(int id) {
 		this->id = id;
 	}
 	void setName(string& name) {
-		if (Validation::ValidateName(name))
+		if (Validation::isAlpha(name))
 			this->name = name;
 		else
 			cout << "Invalid name format. Name must contain only alphabetic characters and be between 5 and 20 characters long." << endl;
 	}
 	void setPassword(string& password) {
-		if (Validation::ValidatePassword(password))
+		if (Validation::isValidPassword(password))
 			this->password = password;
 		else
 			cout << "Invalid password format. Password must be between 8 and 20 characters long." << endl;
