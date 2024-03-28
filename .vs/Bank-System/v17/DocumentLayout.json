@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Bank-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Bank-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Validation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Bank-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|solutionrelative:Bank-System\\Bank-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EC512C5-20B9-4CD2-889D-CAB8C1E84D67}|Bank-System\\Bank-System.vcxproj|C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Bank-System.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Bank-System.cpp",
               "RelativeDocumentMoniker": "Bank-System\\Bank-System.cpp",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Bank-System.cpp",
               "RelativeToolTip": "Bank-System\\Bank-System.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-17T18:18:02.372Z",
               "EditorCaption": ""
@@ -59,7 +59,8 @@
               "RelativeToolTip": "Bank-System\\Validation.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-26T19:01:57.155Z"
+              "WhenOpened": "2024-03-26T19:01:57.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,15 +77,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Client.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h",
               "RelativeDocumentMoniker": "Bank-System\\Client.h",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Bank-System\\Bank-System\\Client.h",
               "RelativeToolTip": "Bank-System\\Client.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-25T19:24:04.087Z"
+              "WhenOpened": "2024-03-25T19:24:04.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
