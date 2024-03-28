@@ -55,6 +55,6 @@ public:
 	//Methods:
 	void display(){
 		Person::display();
-		cout << "Balance : " << balance << endl;
+		cout << "Balance : " << balance << "$" << endl;
 		}
 };

@@ -20,13 +20,13 @@ public:
 	void setID(int id) {
 		this->id = id;
 	}
-	void setName(string name) {
+	void setName(string& name) {
 		if (Validation::ValidateName(name))
 			this->name = name;
 		else
 			cout << "Invalid name format. Name must contain only alphabetic characters and be between 5 and 20 characters long." << endl;
 	}
-	void setPassword(string password) {
+	void setPassword(string& password) {
 		if (Validation::ValidatePassword(password))
 			this->password = password;
 		else
@@ -46,5 +46,6 @@ public:
 	virtual void display() {
 		cout << "ID : " << id << endl;
 		cout << "Name : " << name << endl;
+		cout << "Pass : " << password << endl;
 	}
 };
